@@ -9,6 +9,8 @@
 
 FROM catub/catuserbot:latest
 
+RUN pip3 install git+https://github.com/Jisan09/Telethon@test
+
 # Working directory 
 WORKDIR /userbot
 
